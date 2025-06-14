@@ -50,9 +50,9 @@
                   </router-link>
                 </li>
                 <li class="sidenav-item">
-                  <router-link :to="'/dashboard/register/land'">
+                  <router-link :to="'/dashboard/carbon-credit-projects'">
                     <span class="sidenav-icon icon icon-th"></span>
-                    <span class="sidenav-label">Register Land</span>
+                    <span class="sidenav-label">Carbon Credit Projects</span>
                   </router-link>
                 </li>
 

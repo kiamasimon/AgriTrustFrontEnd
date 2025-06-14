@@ -44,9 +44,9 @@
                       </span>
                     </div>
                     <div class="media-middle media-body">
-                      <h6 class="media-heading">Orders</h6>
+                      <h6 class="media-heading">Carbon Credits</h6>
                       <h3 class="media-heading">
-                        <span class="fw-l">1,256 Items</span>
+                        <span class="fw-l">1,256</span>
                       </h3>
                     </div>
                   </div>
@@ -82,7 +82,7 @@
                       </span>
                     </div>
                     <div class="media-middle media-body">
-                      <h6 class="media-heading">Total Sales</h6>
+                      <h6 class="media-heading">Coming Soon</h6>
                       <h3 class="media-heading">
                         <span class="fw-l">$155,352.47</span>
                       </h3>

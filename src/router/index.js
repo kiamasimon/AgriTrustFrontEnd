@@ -8,6 +8,8 @@ import { useAuthStore } from '../store/auth'
 import LandRegistration from "@/views/farmer/LandRegistration.vue";
 import LandParcels from "@/views/farmer/LandParcels.vue";
 import LandVerification from "@/views/admin/LandVerification.vue";
+import CarbonCreditProjects from "@/views/admin/CarbonCreditProjects.vue";
+import CarbonCreditProject from "@/views/admin/CarbonCreditProject.vue";
 
 const routes = [
     {
@@ -38,11 +40,7 @@ const routes = [
               name: 'DashboardHome',
               component: Dashboard
             },
-            {
-              path: 'list/land',
-              name: 'DashboardHome',
-              component: Dashboard
-            },
+
             {
               path: 'register/land',
               name: 'RegisterLand',
@@ -57,6 +55,21 @@ const routes = [
                 path: 'land/verification/:id',
                 name: 'LandVerification',
                 component: LandVerification,
+            },
+            {
+                path: 'carbon-credit-projects',
+                name: 'CarbonCreditProjects',
+                component: CarbonCreditProjects,
+            },
+            {
+                path: 'carbon-credit-projects/:id',
+                name: 'CarbonCreditProject',
+                component: CarbonCreditProject,
+            },
+            {
+                path: '/carbon-projects/new',
+                name: 'CarbonCreditProjectNew',
+                component: CarbonCreditProject,
             }
         ]
     }
